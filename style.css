@@ -1,0 +1,62 @@
+.main
+{
+    padding: 40px !important;
+    background-color: #E9ECEF;
+}
+.main .row
+{
+    position: relative;
+}
+.main .row .col-xs-4
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.logo
+{
+    width: 70px;
+}
+.main .col-xs-4
+{
+    height: 80%;
+}
+.ladylogo
+{
+    height: 100%;
+}
+.col-xs-1
+{
+    position: relative;
+}
+.col-xs-1 img
+{
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+.col-xs-3 img
+{
+    width: 100%;
+    max-width: 130px;
+    min-width: 65px;
+}
+.mItem
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mItem h4
+{
+    margin-top: 10px !important;
+    font-weight: 500;
+}
+.mItem:hover
+{
+    cursor: pointer;
+}
+.below
+{
+    padding: 40px !important;
+}
