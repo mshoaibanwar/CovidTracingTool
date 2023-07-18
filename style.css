@@ -7,15 +7,16 @@
 {
     position: relative;
 }
-.main .row .col-xs-4
-{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
+
 .logo
 {
     width: 70px;
+}
+.logomodal
+{
+    position: absolute;
+    left: 25px;
+    top: 25px;
 }
 .main .col-xs-4
 {
@@ -24,6 +25,7 @@
 .ladylogo
 {
     height: 100%;
+    margin: 50% 0px !important;
 }
 .col-xs-1
 {
@@ -59,4 +61,86 @@
 .below
 {
     padding: 40px !important;
+}
+
+.modal-content {
+    border: 0px !important;
+    border-radius: 0px !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.modal-dialog {
+    margin: 0px !important;
+    height: 100%;
+    background: white;
+}
+.modal-header
+{
+    background-color: #E9ECEF;
+}
+.modal-header .close
+{
+    margin: 5px;
+    margin-top: 5px !important;
+    font-size: 30px;
+}
+
+.question .btn {
+  width: 100%;
+  display: block;
+}
+
+.bottom-question {
+    position: fixed;
+    bottom: 31px;
+    width: 371px;
+    max-width: 80%;
+}
+.question .row {
+  display: none;
+}
+.question .active {
+  display: block;
+}
+.img-fluid
+{
+    margin: 5px 0px;
+    width: 100%;
+}
+.bottombuttons
+{
+    width: 85%;
+    position: fixed;
+    bottom: 35px;
+}
+
+.ques .container-fluid
+{
+    display: none;
+}
+
+.ques .active
+{
+    display: block;
+}
+
+@media (min-width: 768px)
+{
+    .modal-dialog {
+        width: 100% !important;
+    }
+    .ladylogo
+    {
+        margin: 1% 27% !important;
+        max-width: 100px;
+    }
+    .ques .img-fluid
+    {
+        width: 20% !important;
+        margin: 2% 40% !important;
+    }
+    .bottombuttons
+    {
+        width: 96% !important;
+    }
 }
